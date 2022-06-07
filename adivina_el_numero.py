@@ -16,13 +16,13 @@ def adivina_el_numero(x):
         #usuario ingresa numero
         prediccion = int(input(f'Ingrese su prediccion entre 1 y {x}: ')) #esto se llama f-string #luego int te pasa la cadena a numero entero #input siempre te va a mandar un string
         if prediccion < numero_aleatorio:
-            print('Intenta de nuevo, tu numero es pequeno')
+            print('Intenta de nuevo, tu numero es bajo')
         elif prediccion > numero_aleatorio:
             print('Intenta de nuevo, tu numero fue grande')
     
     print(f'Felicidades! ---- Adivinaste el {numero_aleatorio} correctamente!!!!!!!!!!!!!')
 
-
+#la sangria marca el ambito
 
 #tiene que haber 2 lineas en blanco entre la definicion d ela funcion y cualquier otra cosa- recomienda la guia de estilo de pyton
 
